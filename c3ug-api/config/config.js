@@ -2,15 +2,15 @@
 module.exports = {
      
     // The client application port
-    port: 8084,
+    port: <your port>,
     
     // The base URL for the Domino Server to talk to
-    baseURL: 'https://sitfp10.sit.de/',
+    baseURL: '<your url for domino>',
   
     
     // The path to the design database on the PROTON Server
     expenseDbFilePath: {
-      filePath: 'c3ugexpense.nsf',  
+      filePath: '<your nsf>',  
     },
   
     // The valid access tokens for the API
